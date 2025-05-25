@@ -53,7 +53,6 @@ export default function HomeContent() {
         <h2 className="font-bold mb-2 text-lg">お知らせ</h2>
         <ul className="list-disc list-inside text-sm text-gray-700">
           <li>このアプリは開発中です。</li>
-          <li>通貨の送受信機能は近日追加予定！</li>
         </ul>
       </div>
     </div>
