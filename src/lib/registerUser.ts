@@ -51,8 +51,13 @@ export async function registerUserIfFirstTime(
   const userData: any = {
     userName,
     displayId,
+    role: "user",
     createdAt: serverTimestamp(),
-    photoURL: auth.currentUser?.photoURL || '', // ← 追加！
+    lastLoginAt: serverTimestamp(),
+    photoURL: auth.currentUser?.photoURL || '', 
+    currencyLimit: 1 ,
+    locale: "ja",
+    isBanned: false
   };
 
   if (email) {
