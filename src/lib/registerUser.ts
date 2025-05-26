@@ -68,3 +68,4 @@ export async function registerUserIfFirstTime(
 
   return { isNew: true, displayId };
 }
+
