@@ -30,7 +30,7 @@ export default function DisplayNameForm({ onSubmit }: Props) {
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}
-        placeholder="例: pyoi_usagi"
+        placeholder="例: うさぎ"
       />
       <button
         type="submit"
